@@ -1,0 +1,8 @@
+syntax = "proto3";
+import "google/protobuf/descriptor.proto";
+
+package alias;
+
+extend google.protobuf.MessageOptions {
+    string message_alias = 57382;
+}
